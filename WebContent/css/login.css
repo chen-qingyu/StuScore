@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+   background-color:  #6699CC;  
+   background-image: linear-gradient(to right, #6699CC, #99CCFF);
+}
+
+.login-win{
+	margin: 150px auto;
+	padding: 15px;
+	width: 370px;
+	height: 250px;
+	background-color: #CCFFFF;
+	border: 3px solid #FFFFCC;
+	border-radius: 5px;
+}
+
+.login-win h2{
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	color: #6699CC;
+	margin-bottom: 35px;
+}
+
+.login-form{
+	margin: 0px auto;
+	padding: 15px 20px;
+	width: 350px;
+}
+
+.form-input{
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.form-input span{
+	font-size: 15px;
+	color: #6699CC;
+	width: 60px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.form-input input{
+	border: 1px solid #CCCCCC;
+	padding: 5px 8px;
+	border-radius: 3px;
+	width: 215px;
+	height: 15px;
+}
+
+.form-btn button{
+	background-color: #6699CC;
+	padding: 5px 8px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	width: 150px;
+	height: 30px;
+	margin-right: 15px; 
+	margin-top: 20px;
+}

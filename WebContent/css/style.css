@@ -1,0 +1,373 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.open{
+	display: block!important;
+}
+
+*:focus{ 
+	outline: none;
+}
+
+.panel{
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.panel-title{
+	padding: 15px;
+	border-bottom: 1px solid #F7F7F7;
+}
+
+.panel-desc{
+	padding: 15px;
+}
+
+.btn{
+	color: #fff;
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	line-height: 10px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn-add{
+	background-color: #6699CC;
+}
+
+.btn-edit{
+	background-color: #FF9966;
+}
+
+.btn-score{
+	background-color: #6699CC;
+}
+
+.btn-del{
+	background-color: #FF0033;
+}
+
+.btn-disabled{
+	background-color: #d2cdcd;
+}
+
+.btn-search{
+	background-color: #0099CC;
+}
+
+.search{
+	height: 30px;
+}
+
+.search div{
+	float: left;
+	height: 30px;
+	margin-right: 15px;
+}
+
+.search-lable{
+	font-size: 16px;
+	margin-right: 15px;
+}
+
+.serach-input{
+	height: 16px;
+	padding: 5px;
+}
+
+.main-nav-active a{
+	color: #999;
+	font-size: 15px;
+}
+
+.main-nav-sep{
+	color: #999;
+}
+
+.main-nav-this{
+	color: #666;
+	font-size: 15px;
+}
+
+.top{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 50px;
+	padding: 10px 30px;
+	background-color: #6699CC;
+    background-image: linear-gradient(to right, #6699CC, #99CCFF);
+}
+
+.top-logo{
+	font-size: 22px;
+	float: left;
+	line-height: 50px;
+}
+
+.top-logo a{
+	color: #fff;
+}
+
+.top-user{
+	float: right;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.top-user ul{	
+	position: absolute;
+	top: 70px;
+	right: 10px;
+	display: none;
+}
+
+.top-user ul li{
+	list-style: none;
+	height: 20px;
+	padding: 15px;
+	width: 100px;
+	line-height: 20px;
+	text-align: center;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+.main-left{
+	position: fixed;
+	top: 70px;
+	bottom: 0px;
+	width: 240px;
+	background-color: #99CCFF;
+	background-image: linear-gradient(to right bottom, #99CCFF, #CCFFFF);
+}
+
+.main-left li{
+	list-style: none;
+	margin: 5px 20px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #AAB4B4;
+}
+
+.main-left li a{
+	color: #333333;
+}
+
+.main-left li span{
+	margin-right: 10px;
+}
+
+.main-right{
+	background-color: #F5F5F5;
+	position: absolute;
+	left: 240px;
+	right: 0;
+	top: 70px;
+	padding: 15px;
+	margin-bottom: 30px;
+	z-index: -1;
+}
+
+.sys-desc{
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+}
+
+.sys-desc td{
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px;
+}
+
+.table-data{
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+	text-align: center;
+}
+
+.table-data thead{
+	background-color: #F5F5F5;
+}
+
+.table-data td{
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px;
+}
+
+.table-data td input{
+	width: 100%;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.page-panel{
+	height: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	margin-top: -25px;
+	padding: 15px;
+}
+
+.page-panel-desc{
+	float: left;
+	margin-right: 20px;
+	line-height: 30px;
+}
+
+.page-panel ul{
+	float: left;
+	border-top: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+}
+
+.page-panel ul li{
+	display: inline-block;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 5px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+
+.page-panel ul li a{
+	color: #000000;
+}
+
+.page-panel-this{
+	background-color: #EEEEEE;
+}
+
+.page-panel-this:hover{
+	background-color: #EEEEEE!important;
+}
+
+.form-edit{
+	min-height: 360px;
+}
+
+.form-input{
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.form-input span{
+	font-size: 15px;
+	color: #333;
+	width: 60px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.form-input input{
+	border: 1px solid #CCCCCC;
+	padding: 5px 8px;
+	border-radius: 3px;
+	width: 649px;
+	height: 15px;
+}
+
+.form-input textarea{
+	border: 1px solid #CCCCCC;
+	padding: 5px 8px;
+	border-radius: 3px;
+}
+
+.form-radio{
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.form-radio span{
+	font-size: 15px;
+	color: #333;
+	width: 60px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.form-select{
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.form-select span{
+	font-size: 15px;
+	color: #333;
+	width: 60px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.form-select select{
+	border: 1px solid #CCCCCC;
+	padding: 5px 8px;
+	border-radius: 3px;
+	width: 668px;
+}
+
+.form-select option{
+	padding: 5px 8px;
+	height: 15px;
+}
+
+.form-btn{
+	margin-top: 40px;
+}
+
+.form-btn-sub{
+	color: #fff;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    line-height: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: #6699CC;
+    margin-right: 35px;
+}
+
+.form-btn-res{
+	color: #fff;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    line-height: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: #928c8c;
+}
+
+.foot{
+	position: fixed;
+	left: 240px;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #EEEEEE;
+	color: #C9CBCB;
+}
+
+.foot a{
+	color: #A7AAAA;
+}
